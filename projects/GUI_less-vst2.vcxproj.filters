@@ -23,6 +23,30 @@
     <ClCompile Include="..\..\..\IPlug\IPlugPaths.cpp">
       <Filter>IPlug</Filter>
     </ClCompile>
+    <ClCompile Include="..\iir1\iir\Biquad.cpp">
+      <Filter>Iir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iir1\iir\Butterworth.cpp">
+      <Filter>Iir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iir1\iir\Cascade.cpp">
+      <Filter>Iir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iir1\iir\ChebyshevI.cpp">
+      <Filter>Iir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iir1\iir\ChebyshevII.cpp">
+      <Filter>Iir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iir1\iir\Custom.cpp">
+      <Filter>Iir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iir1\iir\PoleFilter.cpp">
+      <Filter>Iir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iir1\iir\RBJ.cpp">
+      <Filter>Iir</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="../config.h" />
@@ -87,6 +111,48 @@
     <ClInclude Include="..\..\..\IPlug\ISender.h">
       <Filter>IPlug</Filter>
     </ClInclude>
+    <ClInclude Include="..\iir1\Iir.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\Biquad.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\Butterworth.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\Cascade.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\ChebyshevI.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\ChebyshevII.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\Common.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\Custom.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\Layout.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\MathSupplement.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\PoleFilter.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\RBJ.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\State.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iir1\iir\Types.h">
+      <Filter>Iir</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="IPlug">
@@ -100,6 +166,9 @@
     </Filter>
     <Filter Include="config">
       <UniqueIdentifier>{8c338368-7512-426b-af83-0f50719ca0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iir">
+      <UniqueIdentifier>{18a4de47-2569-4dbe-b327-c0d187c381c0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

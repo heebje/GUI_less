@@ -268,6 +268,20 @@
     <ClInclude Include="..\..\..\IPlug\ISender.h" />
     <ClInclude Include="..\..\..\IPlug\VST2\IPlugVST2.h" />
     <ClInclude Include="..\GUI_less.h" />
+    <ClInclude Include="..\iir1\Iir.h" />
+    <ClInclude Include="..\iir1\iir\Biquad.h" />
+    <ClInclude Include="..\iir1\iir\Butterworth.h" />
+    <ClInclude Include="..\iir1\iir\Cascade.h" />
+    <ClInclude Include="..\iir1\iir\ChebyshevI.h" />
+    <ClInclude Include="..\iir1\iir\ChebyshevII.h" />
+    <ClInclude Include="..\iir1\iir\Common.h" />
+    <ClInclude Include="..\iir1\iir\Custom.h" />
+    <ClInclude Include="..\iir1\iir\Layout.h" />
+    <ClInclude Include="..\iir1\iir\MathSupplement.h" />
+    <ClInclude Include="..\iir1\iir\PoleFilter.h" />
+    <ClInclude Include="..\iir1\iir\RBJ.h" />
+    <ClInclude Include="..\iir1\iir\State.h" />
+    <ClInclude Include="..\iir1\iir\Types.h" />
     <ClInclude Include="..\resources\resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -279,6 +293,14 @@
     <ClCompile Include="..\..\..\IPlug\IPlugTimer.cpp" />
     <ClCompile Include="..\..\..\IPlug\VST2\IPlugVST2.cpp" />
     <ClCompile Include="..\GUI_less.cpp" />
+    <ClCompile Include="..\iir1\iir\Biquad.cpp" />
+    <ClCompile Include="..\iir1\iir\Butterworth.cpp" />
+    <ClCompile Include="..\iir1\iir\Cascade.cpp" />
+    <ClCompile Include="..\iir1\iir\ChebyshevI.cpp" />
+    <ClCompile Include="..\iir1\iir\ChebyshevII.cpp" />
+    <ClCompile Include="..\iir1\iir\Custom.cpp" />
+    <ClCompile Include="..\iir1\iir\PoleFilter.cpp" />
+    <ClCompile Include="..\iir1\iir\RBJ.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\resources\main.rc" />
