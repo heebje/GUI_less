@@ -38,7 +38,6 @@ Dependencies/Build/*
 Documentation/html
 Documentation/doxygen_warnings.txt
 Examples/build_errors.log
-Projects/*
 Examples/IPlugSwift/Pods
 PodFile.lock
 */*/.vscode/ipch
@@ -46,3 +45,4 @@ Examples/*/EBWebView
 Examples/*/packages
 Examples/IPlugConvoEngine/r8brain
 *.RPP-UNDO
+*.bak
